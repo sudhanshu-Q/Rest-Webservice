@@ -15,7 +15,7 @@ public class User {
 		this.name = name;
 		this.birthDate = birthDate;
 	}
-
+//getter and setter
 	public Integer getId() {
 		return id;
 	}
@@ -40,6 +40,7 @@ public class User {
 		this.birthDate = birthDate;
 	}
 
+	//toString for reponse in json
 	@Override
 	public String toString() {
 		return "User [id=" + id + ", name=" + name + ", birthDate=" + birthDate + "]";

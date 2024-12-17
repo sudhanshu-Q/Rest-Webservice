@@ -14,6 +14,7 @@ public class UserDaoService {
 	// UserDaoService > static List
 
 	private static List<User> users = new ArrayList<>();
+	//static block
 	static {
 		users.add(new User(1, "user1", LocalDate.now().minusYears(34)));
 		users.add(new User(2, "user2", LocalDate.now().minusYears(30)));
